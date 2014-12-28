@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">短信Mod</string>
+    <string name="hello">Hello World, SMS_Mod_MainActivity!</string>
+    <string name="hello_world">Hello World!</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+
+    <string name="title_activity_main">短信Mod</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_list_view_demo">ListViewDemo</string>
+    <string name="title_activity_sms_insert">Sms_insertActivity</string>
+    <string name="title_activity_sms_read">Sms_readActivity</string>
+
+    <string name="toast_end">OnCreate方法执行完毕 ！</string>
+    <string name="toast_insert">Insert SMS 插入短信成功！</string>
+    <string name="toast_querySMS">Query SMS 查询所需要的短信成功！</string>
+    <string name="toast_getSmsByContent">getSmsByContent()成功执行！</string>
+    <string name="toast_getSmsByThreadID">getSmsByThreadID()成功执行！</string>
+
+    <string name="title_activity_view_group">ViewGroupActivity</string>
+    <string name="text_main_activity">这是zhufeng的Android短信Mod小程序，希望你喜欢！&gt;.&lt; </string>
+
+    <string name="txt_banner">短信Mod小程序</string>
+    <string name="txt_read_sms">读取短信</string>
+    <string name="txt_insert_sms">写入单条短信</string>
+    <string name="txt_list_view">ListView使用Demo</string>
+    <string name="txt_contact">读取联系人</string>
+    <string name="txt_vg">ViewGroup使用的Demo</string>
+
+</resources>
