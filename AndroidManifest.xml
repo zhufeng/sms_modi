@@ -3,11 +3,11 @@
     package="com.zhufeng.sms_mod"
     android:installLocation="internalOnly"
     android:versionCode="1"
-    android:versionName="1.2.1.20141228" >
+    android:versionName="1.2.2.20151002" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="16" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.WRITE_SMS" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />

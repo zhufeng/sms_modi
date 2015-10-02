@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-	android:orientation="vertical" >
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/banner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-		android:text="@string/txt_banner"
+        android:text="@string/txt_banner"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -17,37 +17,41 @@
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-		android:text="@string/text_main_activity" />
+        android:text="@string/text_main_activity" />
 
     <Button
         android:id="@+id/btnReadSMS"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-		android:gravity="center"
-		android:text="@string/txt_read_sms" />
+        android:gravity="center"
+        android:text="@string/txt_read_sms" />
 
     <Button
         android:id="@+id/btnInsertSMS"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-		android:text="@string/txt_insert_sms" />
+        android:text="@string/txt_insert_sms" />
 
     <Button
         android:id="@+id/btnListView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-		android:text="@string/txt_list_view" />
+        android:text="@string/txt_list_view" />
 
     <Button
         android:id="@+id/btnContact"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-		android:text="@string/txt_contact" />
+        android:text="@string/txt_contact" />
 
     <Button
         android:id="@+id/btnVG"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-		android:text="@string/txt_vg" />
+        android:text="@string/txt_vg" />
+
+    <!-- <include -->
+        <!-- android:id="@+id/toolbar" -->
+        <!-- layout="@layout/toolbar" /> -->
 
 </LinearLayout>
